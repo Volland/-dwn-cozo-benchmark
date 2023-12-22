@@ -1,7 +1,6 @@
 //ts-ignore 
 import {  SortDirection } from '@tbd54566975/dwn-sdk-js';
-import  { TestDataGenerator } from '@tbd54566975/dwn-sdk-js/dist/esm/tests/utils/test-data-generator.js';
-import  { Time } from '@tbd54566975/dwn-sdk-js/dist/esm/src/utils/time.js';
+import  { TestDataGenerator, Time } from '@tbd54566975/dwn-sdk-js';
 
 
 export const runMessageStoreBenchmark = async (messageStore , items = 10_000) => {

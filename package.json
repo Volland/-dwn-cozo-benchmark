@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tbd54566975/dwn-sdk-js": "^0.2.9",
+    "@tbd54566975/dwn-sdk-js": "file:.yalc/@tbd54566975/dwn-sdk-js",
     "@tbd54566975/dwn-sql-store": "^0.2.5",
-    "dwn-cozo-store": "^0.0.3",
+    "better-sqlite3": "^9.2.2",
+    "dwn-cozo-store": "0.0.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
